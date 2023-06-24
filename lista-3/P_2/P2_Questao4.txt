@@ -1,0 +1,21 @@
+
+// Guilherme Akio Suguino Sampaio
+// Gabriel de Oliveira Batista
+// Luca Paes Beraldi
+
+Considere as linhas de código abaixo:
+int *p, i, k;
+i = 42;
+k = i;
+p = &i;
+Qual a opção abaixo irá alterar o valor de i para 30.
+a) k = 30; b) *k = 30; c) p = 30; d) *p = 30;
+
+
+
+A opção correta para alterar o valor de i para 30 é a letra d) *p = 30;.
+
+Explicação: A variável p é um ponteiro para um inteiro (int *p). Ao atribuir p = &i;, 
+o ponteiro p aponta para a variável i. Para alterar o valor de i através do ponteiro, 
+precisamos usar a sintaxe *p, que desreferencia o ponteiro e nos permite acessar o conteúdo da variável apontada por ele. 
+Portanto, ao fazer *p = 30;, estamos atribuindo o valor 30 à variável i.

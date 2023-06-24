@@ -1,0 +1,21 @@
+// Guilherme Akio Suguino Sampaio
+// Gabriel de Oliveira Batista
+// Luca Paes Beraldi
+
+
+O valor impresso para a será 20 e o valor impresso para b será 20.
+
+Explicação:
+O programa começa com as declarações e atribuições iniciais das variáveis a e b. Em seguida, ponteiros pA e pB são declarados e apontados para as variáveis a e b, 
+respectivamente, usando os operadores de referência &.
+
+Em seguida, o valor de *pA (ou seja, o conteúdo apontado por pA, que é a) é alterado para 10 usando *pA = 10;. Como pA está apontando para a, essa alteração afeta 
+diretamente o valor de a, tornando-o 10.
+
+Em seguida, *pB (ou seja, o conteúdo apontado por pB, que é b) é alterado para o valor de *pA, ou seja, 10. Portanto, b agora é igual a 10.
+
+A linha pA = pB; faz com que pA aponte para o mesmo endereço que pB, ou seja, para b.
+
+Em seguida, *pA (ou seja, b) é alterado para 20 usando *pA = 20;. Portanto, b agora é igual a 20.
+
+Por fim, são exibidos os valores de a e b usando printf. Assim, a será impresso como 20 e b também será impresso como 20.

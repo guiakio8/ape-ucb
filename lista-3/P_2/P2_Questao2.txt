@@ -1,0 +1,39 @@
+
+// Guilherme Akio Suguino Sampaio
+// Gabriel de Oliveira Batista
+// Luca Paes Beraldi
+
+Enunciado:
+main( ) {
+int *pontA, *pontB, v1, v2;
+v1 = 3;
+v2 = 12;
+pontA = &v1;
+pontB = pontA;
+*pontB = 44;
+printf("Valores das variáveis");
+printf("v1 (conteudo) = %d",v1);
+printf("v1 (endereco) = %d",&v1);
+printf("v2 (conteudo) = %d",v2);
+printf("v2 (endereco) = %d",&v2);
+printf("Valores dos ponteiros");
+printf("pontA (conteudo) = %d",pontA);
+printf("pontA (endereco) = %d",&pontA);
+printf("pontA (valor do ponteiro) = %d",*pontA);
+printf("pontB (conteudo) = %d",pontB);
+printf("pontB (endereco) = %d",&pontB);
+printf("pontB (valor do ponteiro) = %d",*pontB);
+getch(); }
+
+
+Resolucao:
+v1 (conteúdo) = 44
+v1 (endereço) = <endereço de v1>
+v2 (conteúdo) = 12
+v2 (endereço) = <endereço de v2>
+pontA (conteúdo) = <endereço de v1>
+pontA (endereço) = <endereço de pontA>
+pontA (valor do ponteiro) = 44
+pontB (conteúdo) = <endereço de v1>
+pontB (endereço) = <endereço de pontB>
+pontB (valor do ponteiro) = 44
